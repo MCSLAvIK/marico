@@ -228,6 +228,7 @@
     display: flex;
     justify-content: center !important;
     color: white;
+    margin-left: 5px !important;
   }
   .love-marico-inner {
     display: flex;
