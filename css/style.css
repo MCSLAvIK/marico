@@ -276,18 +276,20 @@
   /* */
   .helped {
     width: 100%;
-    height: 700px !important;
+    height: 500px !important;
     text-align: center;
-    background: url('../img/people.png') no-repeat center !important;
-    background-size: cover !important;
     margin-top: 40px !important;
+  }
+  .people-img {
+    width: 99% !important;
+    height: 100% !important;
   }
   .helped-text {
     font-weight: 600;
-    font-size: 35px !important;
-    line-height: 75px !important;
+    font-size: 25px !important;
+    line-height: 45px !important;
     color: #ffffff;
-    padding-top: 150px !important;
+    transform: translateY(20%);
   }
   /* */
   .get-started {
@@ -718,12 +720,16 @@ body {
   background-size: cover;
   margin-top: 150px;
 }
+.people-img {
+  width: 100%;
+  height: 100%;
+}
 .helped-text {
   font-weight: 600;
   font-size: 70px;
   line-height: 105px;
   color: #ffffff;
-  padding-top: 300px;
+  transform: translateY(-250%);
 }
 /* */
 .get-started {
